@@ -1,20 +1,66 @@
 # @gradio/app
 
+## 1.14.1
+
+### Patch Changes
+
+- Updated dependencies [[`2b625ad94`](https://github.com/gradio-app/gradio/commit/2b625ad9403c3449b34a8a3da68ae48c4347c2db), [`206af31d7`](https://github.com/gradio-app/gradio/commit/206af31d7c1a31013364a44e9b40cf8df304ba50), [`315659817`](https://github.com/gradio-app/gradio/commit/315659817e5e67a04a1375d35ea6fa58d20622d2), [`9bcb1da18`](https://github.com/gradio-app/gradio/commit/9bcb1da189a9738d023ef6daad8c6c827e3f6371)]:
+  - @gradio/chatbot@0.5.1
+  - @gradio/icons@0.3.1
+  - @gradio/fileexplorer@0.3.9
+  - @gradio/uploadbutton@0.3.0
+  - @gradio/annotatedimage@0.3.9
+  - @gradio/atoms@0.3.1
+  - @gradio/audio@0.5.5
+  - @gradio/code@0.2.9
+  - @gradio/dropdown@0.4.1
+  - @gradio/file@0.3.1
+  - @gradio/form@0.1.4
+  - @gradio/gallery@0.4.10
+  - @gradio/highlightedtext@0.4.4
+  - @gradio/image@0.4.2
+  - @gradio/imageeditor@0.1.2
+  - @gradio/json@0.1.4
+  - @gradio/label@0.2.4
+  - @gradio/model3d@0.4.7
+  - @gradio/plot@0.2.4
+  - @gradio/simpledropdown@0.1.4
+  - @gradio/simpletextbox@0.1.4
+  - @gradio/statustracker@0.4.1
+  - @gradio/textbox@0.4.5
+  - @gradio/upload@0.5.2
+  - @gradio/video@0.1.9
+  - @gradio/accordion@0.2.4
+  - @gradio/box@0.1.4
+  - @gradio/checkbox@0.2.4
+  - @gradio/checkboxgroup@0.3.5
+  - @gradio/colorpicker@0.2.4
+  - @gradio/dataframe@0.3.11
+  - @gradio/dataset@0.1.9
+  - @gradio/fallback@0.2.4
+  - @gradio/html@0.1.4
+  - @gradio/markdown@0.4.1
+  - @gradio/number@0.3.4
+  - @gradio/radio@0.3.5
+  - @gradio/slider@0.2.4
+  - @gradio/row@0.1.0
+  - @gradio/button@0.2.9
+
 ## 1.14.0
 
 ### Features
 
-- [#6537](https://github.com/gradio-app/gradio/pull/6537) [`6d3fecfa4`](https://github.com/gradio-app/gradio/commit/6d3fecfa42dde1c70a60c397434c88db77289be6) - chore(deps): update all non-major dependencies.  Thanks [@renovate](https://github.com/apps/renovate)!
+- [#6537](https://github.com/gradio-app/gradio/pull/6537) [`6d3fecfa4`](https://github.com/gradio-app/gradio/commit/6d3fecfa42dde1c70a60c397434c88db77289be6) - chore(deps): update all non-major dependencies. Thanks [@renovate](https://github.com/apps/renovate)!
 
 ### Fixes
 
-- [#6530](https://github.com/gradio-app/gradio/pull/6530) [`13ef0f0ca`](https://github.com/gradio-app/gradio/commit/13ef0f0caa13e5a1cea70d572684122419419599) - Quick fix: Make component interactive when it is in focus.  Thanks [@dawoodkhan82](https://github.com/dawoodkhan82)!
+- [#6530](https://github.com/gradio-app/gradio/pull/6530) [`13ef0f0ca`](https://github.com/gradio-app/gradio/commit/13ef0f0caa13e5a1cea70d572684122419419599) - Quick fix: Make component interactive when it is in focus. Thanks [@dawoodkhan82](https://github.com/dawoodkhan82)!
 
 ## 1.13.1
 
 ### Fixes
 
-- [#6536](https://github.com/gradio-app/gradio/pull/6536) [`1bbd6cab3`](https://github.com/gradio-app/gradio/commit/1bbd6cab3f0abe183b514b82061f0937c8480966) - Fix undefined `data` TypeError in Blocks.  Thanks [@hannahblair](https://github.com/hannahblair)!
+- [#6536](https://github.com/gradio-app/gradio/pull/6536) [`1bbd6cab3`](https://github.com/gradio-app/gradio/commit/1bbd6cab3f0abe183b514b82061f0937c8480966) - Fix undefined `data` TypeError in Blocks. Thanks [@hannahblair](https://github.com/hannahblair)!
 
 ## 1.13.0
 
@@ -64,28 +110,28 @@ im = gr.ImageEditor(
 
 ```
 
- Thanks [@pngwn](https://github.com/pngwn)!
+Thanks [@pngwn](https://github.com/pngwn)!
 
 ## 1.12.0
 
 ### Features
 
-- [#6427](https://github.com/gradio-app/gradio/pull/6427) [`e0fc14659`](https://github.com/gradio-app/gradio/commit/e0fc146598ba9b081bc5fa9616d0a41c2aba2427) - Allow google analytics to work on Spaces (and other iframe situations).  Thanks [@abidlabs](https://github.com/abidlabs)!
+- [#6427](https://github.com/gradio-app/gradio/pull/6427) [`e0fc14659`](https://github.com/gradio-app/gradio/commit/e0fc146598ba9b081bc5fa9616d0a41c2aba2427) - Allow google analytics to work on Spaces (and other iframe situations). Thanks [@abidlabs](https://github.com/abidlabs)!
 
 ### Fixes
 
-- [#6254](https://github.com/gradio-app/gradio/pull/6254) [`f816136a0`](https://github.com/gradio-app/gradio/commit/f816136a039fa6011be9c4fb14f573e4050a681a) - Add volume control to Audio.  Thanks [@hannahblair](https://github.com/hannahblair)!
-- [#6457](https://github.com/gradio-app/gradio/pull/6457) [`d00fcf89d`](https://github.com/gradio-app/gradio/commit/d00fcf89d1c3ecbc910e81bb1311479ec2b73e4e) - Gradio custom component dev mode now detects changes to Example.svelte file.  Thanks [@freddyaboulton](https://github.com/freddyaboulton)!
+- [#6254](https://github.com/gradio-app/gradio/pull/6254) [`f816136a0`](https://github.com/gradio-app/gradio/commit/f816136a039fa6011be9c4fb14f573e4050a681a) - Add volume control to Audio. Thanks [@hannahblair](https://github.com/hannahblair)!
+- [#6457](https://github.com/gradio-app/gradio/pull/6457) [`d00fcf89d`](https://github.com/gradio-app/gradio/commit/d00fcf89d1c3ecbc910e81bb1311479ec2b73e4e) - Gradio custom component dev mode now detects changes to Example.svelte file. Thanks [@freddyaboulton](https://github.com/freddyaboulton)!
 
 ## 1.11.0
 
 ### Features
 
-- [#6099](https://github.com/gradio-app/gradio/pull/6099) [`d84209703`](https://github.com/gradio-app/gradio/commit/d84209703b7a0728cdb49221e543500ddb6a8d33) - Lite: SharedWorker mode.  Thanks [@whitphx](https://github.com/whitphx)!
+- [#6099](https://github.com/gradio-app/gradio/pull/6099) [`d84209703`](https://github.com/gradio-app/gradio/commit/d84209703b7a0728cdb49221e543500ddb6a8d33) - Lite: SharedWorker mode. Thanks [@whitphx](https://github.com/whitphx)!
 
 ### Fixes
 
-- [#6383](https://github.com/gradio-app/gradio/pull/6383) [`324867f63`](https://github.com/gradio-app/gradio/commit/324867f63c920113d89a565892aa596cf8b1e486) - Fix event target.  Thanks [@aliabid94](https://github.com/aliabid94)!
+- [#6383](https://github.com/gradio-app/gradio/pull/6383) [`324867f63`](https://github.com/gradio-app/gradio/commit/324867f63c920113d89a565892aa596cf8b1e486) - Fix event target. Thanks [@aliabid94](https://github.com/aliabid94)!
 
 ## 1.10.3
 

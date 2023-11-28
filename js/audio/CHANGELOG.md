@@ -1,10 +1,21 @@
 # @gradio/audio
 
+## 0.5.5
+
+### Patch Changes
+
+- Updated dependencies [[`206af31d7`](https://github.com/gradio-app/gradio/commit/206af31d7c1a31013364a44e9b40cf8df304ba50)]:
+  - @gradio/icons@0.3.1
+  - @gradio/atoms@0.3.1
+  - @gradio/statustracker@0.4.1
+  - @gradio/upload@0.5.2
+  - @gradio/button@0.2.9
+
 ## 0.5.4
 
 ### Fixes
 
-- [#6546](https://github.com/gradio-app/gradio/pull/6546) [`a424fdbb2`](https://github.com/gradio-app/gradio/commit/a424fdbb2389219661b9a73197f4cc095a08cfe9) - Ensure audio waveform `autoplay` updates.  Thanks [@hannahblair](https://github.com/hannahblair)!
+- [#6546](https://github.com/gradio-app/gradio/pull/6546) [`a424fdbb2`](https://github.com/gradio-app/gradio/commit/a424fdbb2389219661b9a73197f4cc095a08cfe9) - Ensure audio waveform `autoplay` updates. Thanks [@hannahblair](https://github.com/hannahblair)!
 
 ## 0.5.3
 

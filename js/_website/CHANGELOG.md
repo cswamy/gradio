@@ -1,5 +1,11 @@
 # website
 
+## 0.19.0
+
+### Features
+
+- [#5885](https://github.com/gradio-app/gradio/pull/5885) [`9919b8ab4`](https://github.com/gradio-app/gradio/commit/9919b8ab43bee3d1d7cc65fd641fc8bc9725e102) - Fix the docstring decoration.  Thanks [@whitphx](https://github.com/whitphx)!
+
 ## 0.18.0
 
 ### Features

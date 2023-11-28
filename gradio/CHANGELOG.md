@@ -1,5 +1,19 @@
 # gradio
 
+## 4.8.0
+
+### Features
+
+- [#5885](https://github.com/gradio-app/gradio/pull/5885) [`9919b8ab4`](https://github.com/gradio-app/gradio/commit/9919b8ab43bee3d1d7cc65fd641fc8bc9725e102) - Fix the docstring decoration.  Thanks [@whitphx](https://github.com/whitphx)!
+- [#6565](https://github.com/gradio-app/gradio/pull/6565) [`9bf1ad43e`](https://github.com/gradio-app/gradio/commit/9bf1ad43eac543c9991e59f37e1910f217f8d739) - Fix uploaded file wasn't moved to custom temp dir at different disks.  Thanks [@dodysw](https://github.com/dodysw)!
+- [#6584](https://github.com/gradio-app/gradio/pull/6584) [`9bcb1da18`](https://github.com/gradio-app/gradio/commit/9bcb1da189a9738d023ef6daad8c6c827e3f6371) - Feat: make UploadButton accept icon.  Thanks [@Justin-Xiang](https://github.com/Justin-Xiang)!
+
+### Fixes
+
+- [#6574](https://github.com/gradio-app/gradio/pull/6574) [`2b625ad94`](https://github.com/gradio-app/gradio/commit/2b625ad9403c3449b34a8a3da68ae48c4347c2db) - Ensure Chatbot messages are properly aligned when `rtl` is true.  Thanks [@hannahblair](https://github.com/hannahblair)!
+- [#6572](https://github.com/gradio-app/gradio/pull/6572) [`206af31d7`](https://github.com/gradio-app/gradio/commit/206af31d7c1a31013364a44e9b40cf8df304ba50) - Improve like/dislike functionality.  Thanks [@hannahblair](https://github.com/hannahblair)!
+- [#6550](https://github.com/gradio-app/gradio/pull/6550) [`315659817`](https://github.com/gradio-app/gradio/commit/315659817e5e67a04a1375d35ea6fa58d20622d2) - Make FileExplorer work on python 3.8 and 3.9. Also make it update on changes to root, glob, or glob_dir.  Thanks [@freddyaboulton](https://github.com/freddyaboulton)!
+
 ## 4.7.1
 
 ### Features
